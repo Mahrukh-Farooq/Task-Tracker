@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Task Tracker</title>
+</head>
+<body>
+<div class="container">
+<!--<h1>Task Tracker</h1> for now
+<!--- to change background color-->
+<h1 style="background-color: pink; color: white;">Task Tracker</h1>
+
+<form id="taskForm">
+<!-- Task form inputs go here -->
+
+
+    <label for="taskName" style="background-color: pink; color:white;">Task name:</label><br>
+    <input type="text" id="taskName" name="taskName"><br>
+    <label for="taskDescription" style="background-color: pink; color: white;">Description:</label><br>
+    <textarea id="taskDescription" name="taskDescription"> </textarea><br><br>
+    <label for="taskDeadline" style="background-color: pink; color: white;">Task deadline:</label><br>
+    <input type="date" id="taskDeadline" name="taskDeadline"><br>
+    <button type="submit">Add Task</button>
+    </form>
+<table id="taskTable">
+<!-- Task table content here -->
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
