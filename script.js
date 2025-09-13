@@ -47,7 +47,7 @@ const taskDescription = document.getElementById('taskDescription').value
         </tr>
         `).join('');
 }
-///***************************8 */
+
 function markTaskComplete(button) {
     const row = button.parentElement.parentElement;
     row.style.textDecoration = "line-through";
